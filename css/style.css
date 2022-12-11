@@ -894,3 +894,36 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+
+/* Popup CSS */
+
+.popup-block {
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .popup-block img {
+        letter-spacing: 0;
+        padding: 0px;
+        margin: 0;
+        width: 60%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .popup-block {
+        left: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .popup-block p {
+        width: 90%;
+    }
+    .popup-block img {
+        letter-spacing: 0;
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+}
