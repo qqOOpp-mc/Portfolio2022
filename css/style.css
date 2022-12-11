@@ -909,6 +909,10 @@ a:focus {
         margin: 0;
         width: 60%;
     }
+
+    .popup-block .pixels {
+        width: 200px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -925,5 +929,9 @@ a:focus {
         width: 80%;
         padding: 0;
         margin: 0;
+    }
+
+    .popup-block .pixels {
+        width: 100px;
     }
 }
